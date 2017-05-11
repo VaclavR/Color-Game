@@ -1,0 +1,76 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Avenir", Arial;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #287fca;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+nav {
+    background-color: #fff;
+    color: #287fca;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav div {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+nav span {
+    padding: 6px;
+}
+
+#displayColor {
+    font-size: 4rem;
+}
+
+#reset {
+    float: left;
+}
+
+#easy, #hard {
+    float: right;
+}
+
+#message {
+    line-height: 1.8;
+    padding: 0;
+}
+
+#container {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.square {
+    width: 30%;
+    padding-bottom:  30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.selected {
+    color: #fff;
+    background-color: #287fca;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #287fca;
+    transition: color, background-color 0.5s;
+}
